@@ -23,9 +23,7 @@ sudo chmod o-rwx Examenes-UTN/alumnos_2
 sudo chmod u+rwx Examenes-UTN/alumnos_3
 sudo chmod g-rwx Examenes-UTN/alumnos_3
 sudo chmod o-rwx Examenes-UTN/alumnos_3
-sudo chmod u+rwx Examenes-UTN/profesores
-sudo chmod g+rwx Examenes-UTN/profesores
-sudo chmod u-w Examenes-UTN/profesores
+sudo chmod 775 -R Examenes-UTN/profesores
 whoami > Examenes-UTN/alumnos_1/validar.txt
 whoami > Examenes-UTN/alumnos_2/validar.txt
 whoami > Examenes-UTN/alumnos_3/validar.txt

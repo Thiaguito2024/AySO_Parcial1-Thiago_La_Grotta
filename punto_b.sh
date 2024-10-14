@@ -1,5 +1,5 @@
-sudo fdisk /dev/sda
-lbslk
+sudo fdisk /dev/sdc
+lsblk
 sudo mkfs.ext4 /dev/sdc1
 sudo mkfs.ext4 /dev/sdc2
 sudo mkfs.ext4 /dev/sdc3
